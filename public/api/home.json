@@ -1,0 +1,47 @@
+{
+	"success": true,
+	"data": {
+        "topicList": [
+            {
+                "id": 1,
+                "title": "社会热点",
+                "imgUrl": ""
+            },
+            {
+                "id": 2,
+                "title": "收回",
+                "imgUrl": ""
+						},
+						{
+							"id": 3,
+							"title": "社会热点22",
+							"imgUrl": ""
+					},
+					{
+							"id": 4,
+							"title": "收回222",
+							"imgUrl": ""
+					}
+        ],
+        "list": [{
+            "id": 1,
+            "title": "标题标题1",
+            "desc": "描述",
+            "imgUrl": ""
+        },{
+					"id": 2,
+					"title": "标题标题2",
+					"desc": "描述",
+					"imgUrl": ""
+			},{
+				"id": 3,
+				"title": "标题标题3",
+				"desc": "描述",
+				"imgUrl": ""
+		}],
+        "recompList": [{
+            "id": 1,
+            "imgUrl": "http://upload.jianshu.io/admin_banners/web_images/4592/2cbadf9347d69cfc140daf64de887fda0e361bcc.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+        }]
+    } 
+}

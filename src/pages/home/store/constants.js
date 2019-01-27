@@ -1,0 +1,4 @@
+export const CHANGE_HOME_DATA = 'CHANGE_HOME_DATA';
+export const ADD_HOME_DATA = 'ADD_HOME_DATA';
+
+export const CHANGE_SCROLL = 'CHANGE_SCROLL';
