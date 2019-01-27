@@ -7,7 +7,6 @@ import {withRouter} from 'react-router-dom';
 class Detail extends PureComponent {
 
 		componentDidMount(){
-			console.log(this.props)
 			this.props.getDetail(this.props.match.params.id);
 		}
     render() {

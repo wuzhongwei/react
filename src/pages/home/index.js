@@ -16,7 +16,10 @@ import {
 
 class Home extends PureComponent {
 		componentDidMount() {
-			this.props.changeHomeData();
+			if (this.props.recompList.size === 0) {
+				this.props.changeHomeData();
+			}
+			
 			this.bindEvent();
 		}
 
@@ -49,7 +52,8 @@ class Home extends PureComponent {
     }
 }
 const mapState = (state) => ({
-	showScroll: state.getIn(['home','showScroll'])
+	showScroll: state.getIn(['home','showScroll']),
+	recompList: state.getIn(['home','recompList']), 
 })
 const mapDispatch = (dispatch) => ({
 	changeHomeData(){
